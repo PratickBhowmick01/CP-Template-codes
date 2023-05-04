@@ -6,7 +6,17 @@ if(os.path.exists('input.txt')):
 import sys
 input = sys.stdin.readline
 
-#Main code here
+# Main code here.
+def task():
+    return   
+
+# For multiple cases- f=1; else f=0.
+f = 1
+if f == 1:
+    for _ in range(int(input())):
+        task()
+else:
+    task()
 
 sys.stdout.close() 
-sys.stdin.close() 
+sys.stdin.close()
